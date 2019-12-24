@@ -2,6 +2,5 @@
 
 ----
 
-# Introduction to WebApps
+# Introduction to Typescript
 
-#### WebApps in 2020
