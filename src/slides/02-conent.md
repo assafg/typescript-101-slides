@@ -16,7 +16,7 @@ A typed language that compiles to Javascript
 
 ## The very basic
  
-Create a ts file
+Create a `.ts` file
 
 ```typescript
 // helloworld.ts
@@ -40,7 +40,7 @@ tsc helloworld.ts
 
 ---
 
-## A better practice is to use npm script
+## A better practice is to use a `npm script`
 
 ```
 npm init
@@ -48,6 +48,8 @@ npm install --save-dev typescript
 ```
 
 ```json
+// package.json
+
 {
   ...
   "scripts": {
@@ -81,6 +83,8 @@ greeter.sayHello("Jonh Snow");
 
 ```
 
+----
+
 ## A little tweek
 
 create a `tsconfig.json`
@@ -93,6 +97,7 @@ change the `outDir` to  `"outDir": "./build"`
 
 ```json
 // package.json
+
 {
   ...
   "scripts": {
