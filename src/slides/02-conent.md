@@ -85,7 +85,7 @@ greeter.sayHello("Jonh Snow");
 
 ----
 
-## A little tweek
+## A little tweak
 
 create a `tsconfig.json`
 
@@ -250,6 +250,10 @@ create(undefined); // Error
 # Interfaces
 
 ---
+
+## Anonymous interface (implied)
+
+`:{ label: string }`
 
 ```ts
 function printLabel(labeledObj: { label: string }) {
@@ -467,7 +471,7 @@ square.penWidth = 5.0;
 
 # Classes
 
-Act very similar to JS classes. We will not go into them here.
+Classes in TS are very similar to JS classes. We will not go into them here.
 
 [Further reading](https://www.typescriptlang.org/docs/handbook/classes.html)
 
